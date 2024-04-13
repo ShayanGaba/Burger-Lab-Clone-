@@ -1,0 +1,348 @@
+@font-face {
+    font-family: "boogaloo";
+    src: url(Fonts/Boogaloo-Regular.ttf);
+}
+body{
+    overflow-x: hidden;
+}
+*{
+    font-family: 'boogaloo';
+}
+.header>#background{
+    height: 873px;
+    width: 1351px;
+    position: relative;
+    top: -35px;
+    left: -8px;
+    z-index: -10;
+    /* right: -30px; */
+}
+.nav-bar{
+    display: flex;
+    align-items: center;
+    font-family: 'boogaloo';
+    text-transform: uppercase;
+    position: relative;
+    top: 100px;
+}
+.nav-bar>a{
+    position: relative;
+    bottom: 970px;
+    text-decoration: none;
+    color: white;
+    left: 200px;
+    font-size: 20px;
+    display: flex;
+    margin-left: 20px;
+    transition: color 0.3s;
+    /* top: 00px; */
+}
+.nav-bar>a:hover{
+    color: #911722;
+}
+.nav-bar>.other{
+    display: flex;
+    align-items: center;
+}
+.nav-bar>.other>a{
+    position: relative;
+    bottom: 970px;
+    text-decoration: none;
+    color: white;
+    left: 500px;
+    font-size: 20px;
+    display: flex;
+    margin-left: 20px;
+    transition: color 0.3s;
+}
+.nav-bar>.other>a:hover{
+    color: #911722;
+}
+.nav-bar>div>#logo{
+    /* border: 2px solid red; */
+    height: 70px;
+    width: 70px;
+    position: relative;
+    bottom: 970px;
+    left: -70px;
+}
+.container{
+    display: flex;
+    /* border: 1px solid red; */
+}
+.container>.image-1{
+    position: relative;
+    bottom: 55px;
+    margin-left: 30px;
+}
+.container>.image-1>img{
+    height: 600px;
+    width: auto;
+}
+.container>.text{
+    color: #532F17;
+    margin-left: 30px;
+    position: relative;
+    bottom: 16px;
+}
+.container>.text>h2{
+    font-size: 36px;
+}
+.container>.text>h1{
+    font-size: 52px;
+    font-weight: normal;
+}
+.container>.text>#urd-txt{
+    font-size: 25px;
+}
+.container>.text>#para-1{
+    font-size: 20px;
+    word-spacing: 6px;
+}
+.container>.menu{
+    position: relative;
+    bottom: -1300px;
+    right: 400px;
+}
+.container>.menu{
+    display: flex;
+    position: absolute;
+    /* border: 1px solid red; */
+}
+.container>.menu>h1{
+    /* border: 1px solid red; */
+    position: relative;
+    bottom: 120px;
+    right: -50px;
+    position: absolute;
+    height: 50%;
+    width: 600px;
+    text-align: center;
+    font-size: 50px;
+    color: #532F17;
+    font-weight: normal;
+}
+.container>.menu>.other{
+    position: relative;
+    right: 70px;
+}
+.container>.menu>.other>#img-1{
+    display: flex;
+    position: absolute;
+    position: relative;
+    top: 230px;
+    right: 450px;
+    height: 280px;
+    width: 370px;
+}
+.container>.menu>.other>h2{
+    position: relative;
+    top: 230px;
+    left: -290px;
+    color: #532F17;
+    font-size: 26px;
+}
+.container>.menu>.other>h2>span{
+    color: #E40700;
+    position: relative;
+    right: 20px;
+}
+.container>.menu>.other>#divider{
+    position: relative;
+    top: 220px;
+    right: 370px;
+}
+.container>.menu>.other>h3{
+    position: relative;
+    top: 210px;
+    right: 330px;
+    color: #532F17;
+}
+.container>.menu>.other>p{
+    position: absolute;
+    top: 650px;
+    left: -380px;
+    line-height: 23px;
+    color: #532F17;
+}
+.container>.menu>.other>p>span{
+    position: relative;
+    left: 40px;
+}
+/*                     */
+.container>.menu>.other-2{
+    position: absolute;
+    right: -350px;
+}
+.container>.menu>.other-2>#img-2{
+    display: flex;
+    position: absolute;
+    position: relative;
+    top: 190px;
+    right: 450px;
+    height: 350px;
+    width: 370px;
+}
+.container>.menu>.other-2>h2{
+    position: relative;
+    top: 190px;
+    left: -300px;
+    color: #532F17;
+    font-size: 26px;
+}
+.container>.menu>.other-2>h2>span{
+    color: #E40700;
+    position: relative;
+    right: 9px;
+}
+.container>.menu>.other-2>#divider-2{
+    position: relative;
+    top: 170px;
+    right: 370px;
+}
+.container>.menu>.other-2>h3{
+    position: relative;
+    top: 155px;
+    right: 310px;
+    color: #532F17;
+}
+.container>.menu>.other-2>p{
+    position: absolute;
+    top: 660px;
+    left: -370px;
+    line-height: 23px;
+    color: #532F17;
+}
+.container>.menu>.other-2>p>#another{
+    position: relative;
+    left: -20px;
+}
+.container>.menu>.other-2>p>span{
+    position: relative;
+    left: 40px;
+}
+/*                      */
+.container>.menu>.other-3{
+    position: absolute;
+    right: -750px;
+}
+.container>.menu>.other-3>#img-3{
+    display: flex;
+    position: absolute;
+    position: relative;
+    top: 280px;
+    right: 450px;
+    height: 230px;
+    width: 340px;
+}
+.container>.menu>.other-3>h2{
+    position: relative;
+    top: 270px;
+    left: -330px;
+    color: #532F17;
+    font-size: 26px;
+}
+.container>.menu>.other-3>h2>span{
+    color: #E40700;
+    position: relative;
+    right: 5px;
+}
+.container>.menu>.other-3>#divider-3{
+    position: relative;
+    top: 250px;
+    right: 370px;
+}
+.container>.menu>.other-3>h3{
+    position: relative;
+    top: 240px;
+    right: 355px;
+    color: #532F17;
+}
+.container>.menu>.other-3>p{
+    position: absolute;
+    top: 630px;
+    left: -380px;
+    line-height: 23px;
+    color: #532F17;
+}
+.container>.menu>.other-3>p>#another-2{
+    position: relative;
+    left: -22px;
+}
+.container>.menu>.other-3>p>.last{
+    position: relative;
+    left: 50px;
+}
+.footer>img{
+    position: absolute;
+    height: 400px;
+    width: 1351px;
+    top: 2300px;
+    left: -1px;
+}
+.footer>.first>img{
+    position: absolute;
+    top: 2350px;
+    left: 250px;
+}
+.footer>.first>h1{
+    position: absolute;
+    bottom: -1880px;
+    left: 230px;
+    color: #ffffff;
+    font-size: 28px;
+}
+.footer>.first>p{
+    position: absolute;
+    bottom: -2020px;
+    left: 180px;
+    color: #ffffff;
+    width: 300px;
+    text-align: center;
+    line-height: 23px;
+}
+/*  */
+.footer>.second>img{
+    position: absolute;
+    top: 2350px;
+    left: 600px;
+}
+.footer>.second>h1{
+    position: absolute;
+    bottom: -1880px;
+    left: 580px;
+    color: #ffffff;
+    font-size: 28px;
+}
+.footer>.second>p{
+    position: absolute;
+    bottom: -1980px;
+    left: 530px;
+    color: #ffffff;
+    width: 300px;
+    text-align: center;
+    line-height: 23px;
+}
+/*  */
+.footer>.third>img{
+    position: absolute;
+    top: 2350px;
+    left: 950px;
+    /* border: 1px solid red; */
+}
+.footer>.third>h1{
+    position: absolute;
+    bottom: -1880px;
+    left: 970px;
+    color: #ffffff;
+    font-size: 28px;
+}
+.footer>.third>p{
+    position: absolute;
+    bottom: -1950px;
+    left: 900px;
+    color: #ffffff;
+    width: 300px;
+    text-align: center;
+    line-height: 23px;
+}
